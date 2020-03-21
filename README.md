@@ -1,4 +1,4 @@
-# Python_web_server
+# Python web server
 Basic web message board and video server using sockets in python
 ## socket_http_server.py
 
