@@ -14,4 +14,13 @@ Basic web message board and video server using sockets in python
     * /hello : Helloworld test
 * The contents of the message board were saved in memory.
 * Username and password were saved in user.txt file in json format.
-* Custom 404 error page were shown when route is not satisfied
+* Custom 404 error page were shown when route is not satisfied.
+
+## socket_video_server.py
+
+* Default server address: localhost:3000
+* Route:
+    * /kancolle : Mjpeg streaming
+    * /fubuki : Mjpeg streaming
+    * /hello : Helloworld test
+* Mjpeg streaming server using x-mixed-replace.

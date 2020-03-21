@@ -71,7 +71,7 @@ def run(host='',port=3000):
                     r=b'--frame\r\nContent-Type: image/png\r\n\r\n'+body
                     connection.sendall(r)
                     time.sleep(0.03)
-                connection.close()                
+                connection.close()
             else:
                 response=response_for_path(path)
                 connection.sendall(response)
